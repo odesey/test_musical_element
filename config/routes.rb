@@ -1,5 +1,6 @@
 TestMusicalElement::Application.routes.draw do
   devise_for :users
+  resources :tracks
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
